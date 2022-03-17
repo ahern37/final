@@ -4,7 +4,7 @@ let saturn
 let planets = [];
 
 function setup() {
-  createCanvas(2500, 1200);
+  createCanvas(2000, 1000);
     mars = new Planet(30, 20, 40);
     saturn = new Planet(60, 60, 75);
     for (var i = 0; i < 1000; i++) {

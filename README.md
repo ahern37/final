@@ -12,7 +12,7 @@ Navigate to project (cd desktop etc)
 
 3. Pushing your project to Github w/ comments:
 	1. git commit -am 'comment'
-	2. git push s
+	2. git push
 
 4. Markdown reference page:
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet

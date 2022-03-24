@@ -11,8 +11,8 @@ Navigate to project (cd desktop etc)
 	git add .
 
 3. Pushing your project to Github w/ comments:
-	**git commit -am 'comment'** 
-	**git push** 
+	1. git commit -am 'comment'
+	2. git push s
 
 4. Markdown reference page:
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet

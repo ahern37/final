@@ -17,5 +17,5 @@ Navigate to project (cd desktop etc)
 4. Markdown reference page:
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
-5. Published and viewable @:
-https://ahern37.github.io/final/git 
+5. Published and viewable:
+https://ahern37.github.io/final

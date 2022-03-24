@@ -1,5 +1,5 @@
 # Final #
-## Key steps to getting your project on the Wed ##
+## Key steps to getting your project on the Web ##
 Open terminal (command space)
 
 Navigate to project (cd desktop etc)

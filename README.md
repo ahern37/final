@@ -2,7 +2,7 @@
 ## Key steps to getting your project on the Wed ##
 Open terminal (command space)
 
-Navigate to project (cd~desktop etc)
+Navigate to project (cd desktop etc)
 
 1. open server:
 	http-server -c-1
@@ -18,4 +18,4 @@ Navigate to project (cd~desktop etc)
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 5. Published and viewable @:
-https://ahern37.github.io/final/
+https://ahern37.github.io/final/git 

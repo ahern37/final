@@ -2,8 +2,8 @@
 // let mars
 // let saturn
 //EXP CODE
-const cols = ['#fff2d8', '#fccdd3', '#fca2cf', '#d8f4f6', '#ade1eb'];
-let curr_col = cols[0];
+// const cols = ['#fff2d8', '#fccdd3', '#fca2cf', '#d8f4f6', '#ade1eb'];
+// let curr_col = cols[0];
 //EXP CODE
 
 let galaxies = []
@@ -11,59 +11,59 @@ let galaxies = []
 function setup() {
   createCanvas(2000, 1000,);
   //EXP CODE
-  background(curr_col);
+  // background(curr_col);
     //PASTED FROM DRAW
-  ellipse(width/2, height/2, 100, 100);
-  for (var i = 0; i < galaxies.length; i++) {
-    galaxies[i].display();
+  // ellipse(width/2, height/2, 100, 100);
+  // for (var i = 0; i < galaxies.length; i++) {
+  //   galaxies[i].display();
     //PASTED FROM DRAW
-  }
-  function keyPressed(e) {
-  // console.log(e.keyCode);
+  //}
+//   function keyPressed(e) {
+//   // console.log(e.keyCode);
 
-  switch (e.keyCode) {
-    case 87:
-      curr_col = cols[1];
-      break;
+//   switch (e.keyCode) {
+//     case 87:
+//       curr_col = cols[1];
+//       break;
 
-    case 65:
-      curr_col = cols[2];
-      break;
+//     case 65:
+//       curr_col = cols[2];
+//       break;
 
-    case 83:
-    case 32:
-      curr_col = cols[3];
-      break;
+//     case 83:
+//     case 32:
+//       curr_col = cols[3];
+//       break;
 
-    case 68:
-      curr_col = cols[4];
-      break;
+//     case 68:
+//       curr_col = cols[4];
+//       break;
 
-      // default:
-      //   curr_col = cols[0];
-      //   break;
-      //EXP CODE
-  }
-}
+//       // default:
+//       //   curr_col = cols[0];
+//       //   break;
+//       //EXP CODE
+//   }
+// }
   colorMode(HSB, 282, 87, 54, 1);
  }
 
 function draw() {
-  //background(0);
+  background(0);
   // EXP CODE
   //background(curr_col);
 //} //EXP CODE
   //FILL(140, 11, 132);
     // MOVED TO SETUP
-  // ellipse(width/2, height/2, 100, 100);
-  // for (var i = 0; i < galaxies.length; i++) {
-  //   galaxies[i].display();
+  ellipse(width/2, height/2, 100, 100);
+  for (var i = 0; i < galaxies.length; i++) {
+    galaxies[i].display();
   // }
     //MOVED TO SETUP
 //INSERTING EXP CODE
-}
+  }
 
-//}
+}
 function mouseClicked(){
   galaxies.push(new Galaxy(mouseX, mouseY));
 
